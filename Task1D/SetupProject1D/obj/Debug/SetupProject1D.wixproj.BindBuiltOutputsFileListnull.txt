@@ -1,0 +1,3 @@
+E:\Visual Studio 2022\Task1D\SetupProject1D\bin\Debug\cab1.cab
+E:\Visual Studio 2022\Task1D\SetupProject1D\bin\Debug\SetupProject1D.msi
+E:\Visual Studio 2022\Task1D\SetupProject1D\bin\Debug\SetupProject1D.wixpdb

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "z0C65jc7V1b67yrvT+pEiFmfdRiY3U56JXKTxy+QyzxmR+bkQGnjkdX+8d88+ssOzazboOu6HAhPXnUJbRSSvg==",
+  "success": true,
+  "projectFilePath": "E:\\Visual Studio 2022\\Task1D\\Counter\\Counter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.dotnet.ilcompiler\\8.0.5\\microsoft.dotnet.ilcompiler.8.0.5.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\runtime.win-x64.microsoft.dotnet.ilcompiler\\8.0.5\\runtime.win-x64.microsoft.dotnet.ilcompiler.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

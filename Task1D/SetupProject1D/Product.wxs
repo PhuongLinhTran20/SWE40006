@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="SetupProject1D" Language="1033" Version="1.0.0.0" Manufacturer="Tran Thi Phuong Linh" UpgradeCode="b3d3a98e-7e4b-49f0-a6a9-7501958255c8">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="SetupProject1D" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="SetupProject1D" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+    <Component Id="ProductComponent" Guid="76ad84df-39bd-45a8-a987-b47c1daf8df7">
+        <File Id="Program.cs" Name="Program.cs" Source="E:/Visual Studio 2022/Task1D/Counter/Program.cs" />
+        <File Id="Counter.cs" Name="Counter.cs" Source="E:/Visual Studio 2022/Task1D/Counter/Counter.cs" />
+        <File Id="Clock.cs" Name="Clock.cs" Source="E:/Visual Studio 2022/Task1D/Counter/Clock.cs" />
+        <File Id="Counter.dll" Name="Counter.dll" Source="E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.dll"/>
+       
+    </Component>
+</ComponentGroup>
+	</Fragment>
+</Wix>

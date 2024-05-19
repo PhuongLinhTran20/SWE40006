@@ -1,0 +1,4 @@
+E:/Visual Studio 2022/Task1D/Counter/Clock.cs
+E:/Visual Studio 2022/Task1D/Counter/Counter.cs
+E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.dll
+E:/Visual Studio 2022/Task1D/Counter/Program.cs
