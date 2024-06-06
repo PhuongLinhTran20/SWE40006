@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="SetupDeploymentTask1" Language="1033" Version="1.0.0.0" Manufacturer="Tran Thi Phuong Linh" UpgradeCode="5fb9b399-85c2-4d97-9308-4c1c71b52dfb">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of DeploymentTask1 is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="SetupDeploymentTask1" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="SetupDeploymentTask1" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+
+			<Component Id="Filename.exe" Guid="b811adaf-21f6-488a-a4cc-e91a99665f35" >
+				<File Id="Filename.exe" Name="DeploymentTask1.exe" Source="E:/Visual Studio 2022/DeploymentTask1/bin/Debug/DeploymentTask1.exe">
+					
+				</File>
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

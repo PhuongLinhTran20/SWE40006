@@ -1,0 +1,3 @@
+E:\Visual Studio 2022\SetupDeploymentTask1\bin\Debug\cab1.cab
+E:\Visual Studio 2022\SetupDeploymentTask1\bin\Debug\SetupDeploymentTask1.msi
+E:\Visual Studio 2022\SetupDeploymentTask1\bin\Debug\SetupDeploymentTask1.wixpdb

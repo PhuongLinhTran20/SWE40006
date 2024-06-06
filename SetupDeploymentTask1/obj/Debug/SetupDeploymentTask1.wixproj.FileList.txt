@@ -1,0 +1,7 @@
+obj\Debug\Product.wixobj
+E:\Visual Studio 2022\SetupDeploymentTask1\bin\Debug\cab1.cab
+E:\Visual Studio 2022\SetupDeploymentTask1\bin\Debug\SetupDeploymentTask1.msi
+E:\Visual Studio 2022\SetupDeploymentTask1\bin\Debug\SetupDeploymentTask1.wixpdb
+obj\Debug\SetupDeploymentTask1.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupDeploymentTask1.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupDeploymentTask1.wixproj.BindBuiltOutputsFileListnull.txt

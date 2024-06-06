@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppInstaller
+	Uri="file:///E:/Visual Studio 2022/Deployment1/WinUniversalPackage.appinstaller"
+	Version="1.0.1.0" xmlns="http://schemas.microsoft.com/appx/appinstaller/2017/2">
+	<MainBundle
+		Name="281ee1ca-541a-436d-8fb5-02d63828750f"
+		Version="1.0.1.0"
+		Publisher="CN=DELL"
+		Uri="file:///E:/Visual Studio 2022/Deployment1/WinUniversalPackage_1.0.1.0_Debug_Test/WinUniversalPackage_1.0.1.0_AnyCPU_Debug.msixbundle" />
+	<UpdateSettings>
+		<OnLaunch
+			HoursBetweenUpdateChecks="0" />
+	</UpdateSettings>
+</AppInstaller>

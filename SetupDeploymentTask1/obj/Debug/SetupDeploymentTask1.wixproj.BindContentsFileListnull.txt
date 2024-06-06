@@ -1,0 +1,1 @@
+E:/Visual Studio 2022/DeploymentTask1/bin/Debug/DeploymentTask1.exe
