@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-	<Product Id="*" Name="SetupProject1D" Language="1033" Version="1.0.0.0" Manufacturer="Tran Thi Phuong Linh" UpgradeCode="b3d3a98e-7e4b-49f0-a6a9-7501958255c8">
+	<Product Id="*" Name="SetupProject1D" Language="1033" Version="1.0.0.0" Manufacturer="Tran Thi Phuong Linh" UpgradeCode="8a1da2c9-9f0f-44da-9314-01552dab8e3f">
 		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
 
 		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
@@ -21,13 +21,13 @@
 
 	<Fragment>
 		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
-    <Component Id="ProductComponent" Guid="76ad84df-39bd-45a8-a987-b47c1daf8df7">
-        <File Id="Program.cs" Name="Program.cs" Source="E:/Visual Studio 2022/Task1D/Counter/Program.cs" />
-        <File Id="Counter.cs" Name="Counter.cs" Source="E:/Visual Studio 2022/Task1D/Counter/Counter.cs" />
-        <File Id="Clock.cs" Name="Clock.cs" Source="E:/Visual Studio 2022/Task1D/Counter/Clock.cs" />
-        <File Id="Counter.dll" Name="Counter.dll" Source="E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.dll"/>
-       
-    </Component>
-</ComponentGroup>
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<Component Id="Counter.exe" Guid="9d7ba636-debb-4c72-8b56-15846fd0901f">
+				<File Id="Counter.exe" Name="Counter.exe" Source="E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.exe" />
+				<File Id="Counter.dll" Name="Counter.dll" Source="E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.dll" />
+				<File Id="Counter.deps.json" Name="Counter.deps.json" Source="E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.deps.json" />
+				<File Id="Counter.runtimeconfig.json" Name="Counter.runtimeconfig.json" Source="E:/Visual Studio 2022/Task1D/Counter/bin/Debug/net8.0/Counter.runtimeconfig.json" />
+			</Component>
+		</ComponentGroup>
 	</Fragment>
 </Wix>
